@@ -1,0 +1,86 @@
+0 => URL
+1 => Name
+2 =>
+3 => Price
+4 =>
+5 => weight(gr)
+6 =>
+7 =>
+8 => description
+9 => image_url1
+10 => image_url2
+11 => image_url3
+12 => image_url4
+13 => image_url5
+14 =>
+15 =>
+16 =>
+17 =>
+18 =>
+19 => Category 1
+20 => Category 2
+21 => Category 3
+22 =>
+23 =>
+24 =>
+25 =>
+26 =>
+27 =>
+28 =>
+29 => Qty
+
+
+
+0 => https://www.tokopedia.com/sungvariasi/visor-nmax-model-terbaru-winshield-nmax
+1 => Visor Nmax Model Terbaru / Winshield Nmax
+2 => 115000
+3 => 172500
+4 => 230000
+5 => 1600
+6 => 1.6
+7 => 1
+8 => Visor Nmax Model Paling Baru
+
+Panjang = 60cm
+
+Dengan Tulisan "NMAX" pada Tengah Visor
+
+Bahan Sangat Tebal
+
+Ready Hitam dan Smoke
+
+Foto Adalah Asli Langsung Dari Kita
+
+Jika Menggunakan Pengiriman Selain GOJEK
+
+Harap Di ASURANSIKAN !!!
+
+Karena Barang Rentan Pecah Jika Tidak Di Asuransikan
+
+Jika Tidak Di Asuransikan Dan Pecah Ketika Di Kirim
+
+TIDAK AKAN DI GANTI
+
+Untuk Wilayah Jakarta Di Sarankan Menggunakan Gojek
+9 => https://ecs7.tokopedia.net/img/product-1/2017/5/18/51990100/51990100_a6138e88-1bf5-49bd-b54a-ff353259476b_540_540.jpg
+10 => https://ecs7.tokopedia.net/img/product-1/2016/7/20/427094/427094_9c927d9d-328f-4cb0-a71b-70b4a401ecc1.jpg
+11 => https://ecs7.tokopedia.net/img/product-1/2016/7/20/427094/427094_2d5e25de-a2a0-4f4b-931c-4aba8eeb4bb0.jpg
+12 => https://ecs7.tokopedia.net/img/product-1/2016/7/20/427094/427094_64e1de45-bbb3-4c13-97d7-8cda9b61419b.jpg
+13 => https://ecs7.tokopedia.net/img/product-1/2016/8/1/51990100/51990100_869e5333-156c-4fef-8a32-a4398e044fdc.jpg
+14 =>
+15 =>
+16 =>
+17 =>
+18 =>
+19 => Otomotif
+20 => Aksesoris Motor
+21 => Aksesoris Motor Lainnya
+22 =>
+23 =>
+24 =>
+25 => Assalamualaikum Motorku
+26 => https://www.tokopedia.com/sungvariasi
+27 => DKI Jakarta
+28 => Baru
+29 => 99
+

@@ -1,0 +1,10 @@
+Shopify Private API access
+KEY : 425201bb46caf1de7343e5e2563fc535
+password : 2f983ef3384cece893d372f143fd48ad
+
+
+Client End:
+
+https://virtumall.myshopify.com/admin/auth/login
+user : laxilent@gmail.com
+pass : 14Oct2017
