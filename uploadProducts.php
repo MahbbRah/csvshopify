@@ -1,6 +1,8 @@
 <?php
 
 	$message = '';
+	$progress = null;
+	$totalItem =  null;
 	if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		// var_dump($_FILES['csvFile']);
 		// array(5) { ["name"]=> string(19) "csv_sample_data.csv" ["type"]=> string(8)
@@ -26,14 +28,35 @@
 				foreach ($csvFile as $line) {
 					$data[] = str_getcsv($line);
 				}
-
-				$rmFirstElement = array_shift($data);
-				$box = [];
+				$rmFirstElement = array_shift($data);				
+				$totalItem = count($data);
 				foreach ($data as $item) {
+					$progress += 1;
 					$item1 = $item[19] != ''? $item[19]." ," : "";
 					$item2 = $item[20] != ''? $item[20]." ," : "";
 					$item3 = $item[21] != ''? $item[21]." ," : "";
 					$catitems = $item1.$item2.$item3;
+
+					if($progress < $totalItem) {
+						$percent = intval($progress/$totalItem * 100);
+						echo '<head> <style>
+							#setinner {
+								font-size: 8rem;
+								color: #fff;
+								text-align: center;
+								font-weight: bolder;
+								margin-top: 15%;
+							}
+							body {
+								background-color: teal;
+							}
+						</style></head>
+						<body> <h2 id="setinner"> </h2>
+						<script>
+							document.getElementById("setinner").innerHTML = "'.$percent.'%"
+						</script>
+						</body>';
+					} else { echo 'Done'; }
 
 					$product = [
 						"title" => $item[1],
@@ -59,7 +82,8 @@
 
 					];
 					$shopify->Product->post($product);
-					
+					ob_flush(); 
+   					flush(); 
 				}
 			}
 		}
@@ -99,6 +123,7 @@
 			    <div class="col-md-12">
 			    	<div class="welcome_home">
 			    		<?php //echo $message ?>
+						<h1> <?php echo $progress; ?></h1>
 						<h4 class="body-header">Upload CSV data to create Shopify products </h4>
 			    		<form method="POST" enctype="multipart/form-data">
 							<div class="form-group">
